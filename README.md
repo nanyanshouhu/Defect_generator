@@ -11,18 +11,11 @@ Python 3.x
 pymatgen library for structure manipulation and defect generation.
 
 
-# Example usage:
-# Remove one atom per element
+# Example of usage
 remove_individual_wyckoff(structure, ["O", "La"])
 
-# Replace one atom per element
 replace_individual_wyckoff(structure, ["O", "La"])
 
-# Insert interstitials
-# insert one atom per element
 insert_interstitials(structure, [("Li", [0.25, 0.25, 0.25]), ("Na", [0.5, 0.5, 0.5])])
 
-# Example usage
-# Specify multiple element pairs for generating antisite defects
-# generate_antisite_defects_multiple_pairs(structure, [("Sr", "Ti"), ("La", "O")])
 generate_antisite_defects_multiple_pairs(structure, [("O", "Sr")])
