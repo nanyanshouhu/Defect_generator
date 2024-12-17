@@ -14,7 +14,7 @@ pymatgen library for structure manipulation and defect generation.
 # Example of usage
 remove_individual_wyckoff(structure, ["O", "La"])
 
-replace_individual_wyckoff(structure, ["O", "La"])
+replace_individual_wyckoff(structure, ["Ca"], ["La"])
 
 insert_interstitials(structure, [("Li", [0.25, 0.25, 0.25]), ("Na", [0.5, 0.5, 0.5])])
 
