@@ -125,15 +125,22 @@ def generate_antisite_defects_multiple_pairs(structure, element_pairs):
 # Remove one atom per element
 # remove_individual_wyckoff(structure, ["O", "La"])
 
+# remove_individual_wyckoff(structure, ["O"])
+
+# Example usage:
 # Replace one atom per element
 # replace_individual_wyckoff(structure, ["O", "La"], ["N", "Ca"])
 
-# Insert interstitials
+# replace_individual_wyckoff(structure, ["Ca"], ["La"])
+
+# Example usage:
 # insert one atom per element
 # insert_interstitials(structure, [("Li", [0.25, 0.25, 0.25]), ("Na", [0.5, 0.5, 0.5])])
+
+# insert_interstitials(structure, [("O", [0.0, 0.25, 0.75])])
 
 # Example usage
 # Specify multiple element pairs for generating antisite defects
 # generate_antisite_defects_multiple_pairs(structure, [("Sr", "Ti"), ("La", "O")])
-generate_antisite_defects_multiple_pairs(structure, [("O", "Sr")])
+generate_antisite_defects_multiple_pairs(structure, [("O", "La")])
 
