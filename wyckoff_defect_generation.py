@@ -131,7 +131,7 @@ def generate_antisite_defects_multiple_pairs(structure, element_pairs):
 # Replace one atom per element
 # replace_individual_wyckoff(structure, ["O", "La"], ["N", "Ca"])
 
-# replace_individual_wyckoff(structure, ["Ca"], ["La"])
+# replace_individual_wyckoff(structure, ["La"], ["Sr"])
 
 # Example usage:
 # insert one atom per element
